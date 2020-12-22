@@ -35,5 +35,25 @@ public class Student {
 	public void setWeight(double weight) {
 		this.weight = weight;
 	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public ArrayList<String> getHobbys() {
+		return hobbys;
+	}
+
+	public double getHeight() {
+		return height;
+	}
+
+	public double getWeight() {
+		return weight;
+	}
 	
 }
